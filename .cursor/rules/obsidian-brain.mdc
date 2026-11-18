@@ -1,0 +1,15 @@
+---
+description: Load Benny's GitHub vault. Always-on files, then the tks-orbslam3 pack.
+alwaysApply: true
+---
+
+Long-term memory is the private GitHub vault `bennygx234-design/obsidian-brain`, not this repo. Cursor Memories are not the source of truth.
+
+At the start of every task, before other work:
+
+1. Find the vault. Prefer a workspace folder named `obsidian-brain`. If it is missing, clone or fetch `https://github.com/bennygx234-design/obsidian-brain` (GitHub tools if git cannot authenticate) and pull `main`.
+2. Read `cursor-context/ALWAYS.md`, then `NOW.md`, then `MEMORY.md`.
+3. Open `cursor-context/PROJECTS.md` and load pack `tks-orbslam3`, plus any other pack Benny named. Read only those files, plus extra MEMORY.md links that match the exact task.
+4. After a real change, update the matching vault note, add a MEMORY.md pointer if new, commit and push the vault.
+
+Do not load the whole vault. Never write secrets into the vault. Do not push a live site unless Benny explicitly says to.
